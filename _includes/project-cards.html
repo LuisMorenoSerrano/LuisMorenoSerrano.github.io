@@ -1,0 +1,48 @@
+<!-- Project Cards Include - Renders projects from _data/projects.yml -->
+<div class="projects-grid">
+  {% assign featured_projects = site.data.projects | where: "featured", true %}
+  {% assign other_projects = site.data.projects | where: "featured", false %}
+  {% assign all_projects = featured_projects | concat: other_projects %}
+
+  {% for project in all_projects %}
+  <div class="project-card {% if project.featured %}featured{% endif %}">
+    <div class="project-icon">{{ project.icon }}</div>
+    <h3>{{ project.name }}</h3>
+
+    {% if page.lang == "es" and project.description.es %}
+      <p>{{ project.description.es }}</p>
+    {% else %}
+      <p>{{ project.description.en }}</p>
+    {% endif %}
+
+    <div class="project-links">
+      {% if project.status == "complete" %}
+        <a href="{{ project.github_url }}" class="btn-primary">View Project</a>
+      {% elsif project.status == "in-development" %}
+        <a href="{{ project.github_url }}" class="btn-primary">🔨 In Development</a>
+      {% elsif project.status == "learning" %}
+        <a href="{{ project.github_url }}" class="btn-primary">📚 Learning</a>
+      {% elsif project.status == "active" %}
+        <a href="{{ project.github_url }}" class="btn-primary">⚡ Active</a>
+      {% elsif project.status == "maintained" %}
+        <a href="{{ project.github_url }}" class="btn-primary">🔧 Maintained</a>
+      {% elsif project.status == "optimized" %}
+        <a href="{{ project.github_url }}" class="btn-primary">🚀 Optimized</a>
+      {% else %}
+        <a href="{{ project.github_url }}" class="btn-primary">View Project</a>
+      {% endif %}
+      <a href="{{ project.github_url }}" class="btn-secondary">GitHub</a>
+    </div>
+
+    <div class="project-tags">
+      {% for tech in project.technologies limit:3 %}
+        <span class="tag">{{ tech }}</span>
+      {% endfor %}
+    </div>
+
+    {% if project.note %}
+      <div class="project-note">💡 {{ project.note }}</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

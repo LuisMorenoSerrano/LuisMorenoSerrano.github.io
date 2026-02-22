@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "shopify.theme-check-vscode",
+    "sissel.shopify-liquid",
+    "redhat.vscode-yaml"
+  ]
+}

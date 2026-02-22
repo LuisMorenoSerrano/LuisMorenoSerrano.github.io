@@ -1,0 +1,188 @@
+# Projects Portfolio Data
+# Each project includes multilingual descriptions, technologies, status, and GitHub repository links
+
+- name: "LN4 Language Server"
+  slug: "ln4-language-server"
+  description:
+    en: "Language Server Protocol implementation for Cegid Peoplenet LN4. Built with Rust and Tree-sitter for robust parsing and IDE integration."
+    es: "Implementación del protocolo Language Server para Cegid Peoplenet LN4. Construido con Rust y Tree-sitter para análisis robusto e integración con IDEs."
+  technologies:
+    - Rust
+    - Tree-sitter
+    - LSP
+  github_url: "https://github.com/LuisMorenoSerrano/ln4-language-server"
+  status: "in-development"
+  icon: "⚙️"
+  featured: true
+
+- name: "VSCode LN4 Extension"
+  slug: "vscode-cegid-peoplenet-ln4"
+  description:
+    en: "Visual Studio Code extension providing language support for Cegid Peoplenet LN4 with syntax highlighting and IntelliSense."
+    es: "Extensión de Visual Studio Code que proporciona soporte para Cegid Peoplenet LN4 con resaltado de sintaxis e IntelliSense."
+  technologies:
+    - TypeScript
+    - VSCode API
+    - LSP Client
+  github_url: "https://github.com/LuisMorenoSerrano/vscode-cegid-peoplenet-ln4"
+  status: "complete"
+  icon: "📝"
+  featured: true
+
+- name: "Automata Theory"
+  slug: "automata"
+  description:
+    en: "Comprehensive collection of automata theory materials, formal languages, and computational theory resources. Includes JFLAP tools, assignments, and certification."
+    es: "Colección completa de materiales de teoría de autómatas, lenguajes formales y teoría de la computación. Incluye herramientas JFLAP, tareas y certificación."
+  technologies:
+    - Java
+    - Python
+    - JFLAP
+    - Graphviz
+    - LaTeX
+  github_url: "https://github.com/LuisMorenoSerrano/automata"
+  status: "complete"
+  icon: "🤖"
+  featured: true
+
+- name: "Programming Challenges"
+  slug: "retos-programacion"
+  description:
+    en: "Collection of programming exercises and algorithmic challenges solved in Python. Practice problems from retosdeprogramacion.com with test coverage."
+    es: "Colección de ejercicios de programación y retos algorítmicos resueltos en Python. Problemas de práctica de retosdeprogramacion.com con cobertura de tests."
+  technologies:
+    - Python
+    - pytest
+    - Algorithms
+  github_url: "https://github.com/LuisMorenoSerrano/Retos_Programacion"
+  status: "active"
+  icon: "🧩"
+  featured: true
+
+- name: "Rust Learning Projects"
+  slug: "rust"
+  description:
+    en: "Various projects and experiments learning Rust: guessing game, data format parsers (Avro), temperature converter, Fibonacci, and comprehensive Rust course materials."
+    es: "Varios proyectos y experimentos aprendiendo Rust: juego de adivinanzas, parsers de formatos de datos (Avro), conversor de temperatura, Fibonacci y material de curso completo de Rust."
+  technologies:
+    - Rust
+    - Cargo
+    - Apache Avro
+  github_url: "https://github.com/LuisMorenoSerrano/Rust"
+  status: "learning"
+  icon: "🦀"
+  featured: true
+
+- name: "Python Experiments"
+  slug: "python"
+  description:
+    en: "Python projects including data format parsers, matrix multiplication, NASA data processing, Python Essentials course, and various experimental scripts."
+    es: "Proyectos Python incluyendo parsers de formatos de datos, multiplicación de matrices, procesamiento de datos NASA, curso Python Essentials y varios scripts experimentales."
+  technologies:
+    - Python
+    - NumPy
+    - Data Science
+  github_url: "https://github.com/LuisMorenoSerrano/Python"
+  status: "active"
+  icon: "🐍"
+  featured: true
+
+- name: "HDF5 Aerospace Calculations"
+  slug: "hdf5-aerospace"
+  description:
+    en: "High-performance Fortran project for aerospace calculations using HDF5 format. Optimized with OpenMP parallelization (8x speedup) and intelligent compression (75% memory reduction)."
+    es: "Proyecto Fortran de alto rendimiento para cálculos aeroespaciales usando formato HDF5. Optimizado con paralelización OpenMP (8x speedup) y compresión inteligente (75% reducción de memoria)."
+  technologies:
+    - Fortran
+    - HDF5
+    - OpenMP
+    - High-Performance Computing
+  github_url: "https://github.com/LuisMorenoSerrano/Python"
+  status: "optimized"
+  icon: "🚀"
+  featured: true
+  note: "Located in Fortran/HDF5_Tests subdirectory"
+
+- name: "Go Experiments"
+  slug: "go-experiments"
+  description:
+    en: "Go programming projects and experiments including hello world, number finder, and learning exercises for the Go programming language."
+    es: "Proyectos y experimentos de programación en Go incluyendo hello world, buscador de números y ejercicios de aprendizaje del lenguaje Go."
+  technologies:
+    - Go
+    - CLI Tools
+  github_url: "https://github.com/LuisMorenoSerrano/go-experiments"
+  status: "learning"
+  icon: "🐹"
+  featured: true
+
+- name: "Amazon Linux 2023 Setup"
+  slug: "al2023-virtualbox"
+  description:
+    en: "Complete tutorial and configuration guide for installing and setting up Amazon Linux 2023 on VirtualBox for development and testing."
+    es: "Tutorial completo y guía de configuración para instalar y configurar Amazon Linux 2023 en VirtualBox para desarrollo y pruebas."
+  technologies:
+    - Linux
+    - VirtualBox
+    - DevOps
+  github_url: "https://github.com/LuisMorenoSerrano/AL2023-VirtualBox"
+  status: "complete"
+  icon: "🐧"
+  featured: false
+
+- name: "Development Configs"
+  slug: "configs"
+  description:
+    en: "Curated collection of configuration files and setups for development tools: Git, VSCode, Vim, ESLint, Biome, Windows Terminal, Oh My Posh, and more."
+    es: "Colección curada de archivos de configuración y setups para herramientas de desarrollo: Git, VSCode, Vim, ESLint, Biome, Windows Terminal, Oh My Posh, y más."
+  technologies:
+    - Configuration
+    - Git
+    - VSCode
+    - Vim
+  github_url: "https://github.com/LuisMorenoSerrano/Configs"
+  status: "maintained"
+  icon: "⚙️"
+  featured: false
+
+- name: "Utility Scripts"
+  slug: "scripts"
+  description:
+    en: "Collection of useful automation scripts and utilities for various development tasks and system administration."
+    es: "Colección de scripts de automatización útiles y utilidades para diversas tareas de desarrollo y administración de sistemas."
+  technologies:
+    - Bash
+    - Shell Scripts
+    - Automation
+  github_url: "https://github.com/LuisMorenoSerrano/Scripts"
+  status: "active"
+  icon: "📜"
+  featured: false
+
+- name: "Git Tutorial"
+  slug: "git-tutorial"
+  description:
+    en: "Interactive Git tutorial with practical examples, exercises, and reference materials for learning version control."
+    es: "Tutorial interactivo de Git con ejemplos prácticos, ejercicios y materiales de referencia para aprender control de versiones."
+  technologies:
+    - Git
+    - Version Control
+    - Tutorial
+  github_url: "https://github.com/LuisMorenoSerrano/git-tutorial"
+  status: "complete"
+  icon: "📚"
+  featured: false
+
+- name: "Mechanical Keyboards"
+  slug: "mechanical-keyboards"
+  description:
+    en: "QMK firmware configurations and customizations for mechanical keyboards including Kyria split keyboard and Akko 5075S. Custom key mappings and macros."
+    es: "Configuraciones y personalizaciones de firmware QMK para teclados mecánicos incluyendo Kyria split keyboard y Akko 5075S. Mapeos de teclas y macros personalizados."
+  technologies:
+    - QMK Firmware
+    - C
+    - Hardware
+  github_url: "https://github.com/LuisMorenoSerrano/MechanicalKeyboards"
+  status: "maintained"
+  icon: "⌨️"
+  featured: false

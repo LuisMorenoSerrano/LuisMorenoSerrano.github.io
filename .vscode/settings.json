@@ -1,0 +1,42 @@
+{
+  // Jekyll/Liquid template files should not be formatted by Biome
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": null
+  },
+
+  // Disable Biome for specific file types
+  "biome.enabled": true,
+  "biome.lsp.bin": "",
+
+  // Configure file associations for Jekyll - Liquid templates
+  "files.associations": {
+    "_includes/*.html": "liquid",
+    "_layouts/*.html": "liquid",
+    "*.html": "html"
+  },
+
+  // Exclude Jekyll-specific patterns from VSCode search
+  "files.exclude": {
+    "**/_site": true,
+    "**/.sass-cache": true,
+    "**/.jekyll-cache": true
+  },
+
+  // Trust the Biome schema URL
+  "json.schemas": [
+    {
+      "fileMatch": ["biome.json"],
+      "url": "https://biomejs.dev/schemas/2.3.8/schema.json"
+    }
+  ],
+
+  // Disable HTML validation for Liquid templates
+  "html.validate.scripts": false,
+  "html.validate.styles": false,
+
+  // CSS and other validations
+  "css.validate": true
+}

@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+_posts_backup
+biome.json
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
