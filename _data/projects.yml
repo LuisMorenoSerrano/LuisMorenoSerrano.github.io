@@ -97,11 +97,10 @@
     - HDF5
     - OpenMP
     - High-Performance Computing
-  github_url: "https://github.com/LuisMorenoSerrano/Python"
+  github_url: "https://github.com/LuisMorenoSerrano/HDF5-Aerospace-Calculations"
   status: "optimized"
   icon: "🚀"
   featured: true
-  note: "Located in Fortran/HDF5_Tests subdirectory"
 
 - name: "Go Experiments"
   slug: "go-experiments"
