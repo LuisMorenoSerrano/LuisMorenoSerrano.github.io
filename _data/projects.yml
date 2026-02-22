@@ -1,18 +1,18 @@
 # Projects Portfolio Data
 # Each project includes multilingual descriptions, technologies, status, and GitHub repository links
 
-- name: "LN4 Language Server"
-  slug: "ln4-language-server"
+- name: "Amazon Linux 2023 Setup"
+  slug: "al2023-virtualbox"
   description:
-    en: "Language Server Protocol implementation for Cegid Peoplenet LN4. Built with Rust and Tree-sitter for robust parsing and IDE integration."
-    es: "Implementación del protocolo Language Server para Cegid Peoplenet LN4. Construido con Rust y Tree-sitter para análisis robusto e integración con IDEs."
+    en: "Complete tutorial and configuration guide for installing and setting up Amazon Linux 2023 on VirtualBox for development and testing."
+    es: "Tutorial completo y guía de configuración para instalar y configurar Amazon Linux 2023 en VirtualBox para desarrollo y pruebas."
   technologies:
-    - Rust
-    - Tree-sitter
-    - LSP
-  github_url: "https://github.com/LuisMorenoSerrano/ln4-language-server"
-  status: "in-development"
-  icon: "⚙️"
+    - Linux
+    - VirtualBox
+    - DevOps
+  github_url: "https://github.com/LuisMorenoSerrano/AL2023-VirtualBox"
+  status: "complete"
+  icon: "🐧"
   featured: true
 
 - name: "VSCode LN4 Extension"
@@ -27,6 +27,35 @@
   github_url: "https://github.com/LuisMorenoSerrano/vscode-cegid-peoplenet-ln4"
   status: "complete"
   icon: "📝"
+  featured: true
+
+- name: "Development Configs"
+  slug: "configs"
+  description:
+    en: "Curated collection of configuration files and setups for development tools: Git, VSCode, Vim, ESLint, Biome, Windows Terminal, Oh My Posh, and more."
+    es: "Colección curada de archivos de configuración y setups para herramientas de desarrollo: Git, VSCode, Vim, ESLint, Biome, Windows Terminal, Oh My Posh, y más."
+  technologies:
+    - Configuration
+    - Git
+    - VSCode
+    - Vim
+  github_url: "https://github.com/LuisMorenoSerrano/Configs"
+  status: "maintained"
+  icon: "⚙️"
+  featured: true
+
+- name: "Utility Scripts"
+  slug: "scripts"
+  description:
+    en: "Collection of useful automation scripts and utilities for various development tasks and system administration."
+    es: "Colección de scripts de automatización útiles y utilidades para diversas tareas de desarrollo y administración de sistemas."
+  technologies:
+    - Bash
+    - Shell Scripts
+    - Automation
+  github_url: "https://github.com/LuisMorenoSerrano/Scripts"
+  status: "active"
+  icon: "📜"
   featured: true
 
 - name: "Automata Theory"
@@ -59,18 +88,19 @@
   icon: "🧩"
   featured: true
 
-- name: "Rust Learning Projects"
-  slug: "rust"
+- name: "HDF5 Aerospace Calculations"
+  slug: "hdf5-aerospace"
   description:
-    en: "Various projects and experiments learning Rust: guessing game, data format parsers (Avro), temperature converter, Fibonacci, and comprehensive Rust course materials."
-    es: "Varios proyectos y experimentos aprendiendo Rust: juego de adivinanzas, parsers de formatos de datos (Avro), conversor de temperatura, Fibonacci y material de curso completo de Rust."
+    en: "High-performance Fortran project for aerospace calculations using HDF5 format. Optimized with OpenMP parallelization (8x speedup) and intelligent compression (75% memory reduction)."
+    es: "Proyecto Fortran de alto rendimiento para cálculos aeroespaciales usando formato HDF5. Optimizado con paralelización OpenMP (8x speedup) y compresión inteligente (75% reducción de memoria)."
   technologies:
-    - Rust
-    - Cargo
-    - Apache Avro
-  github_url: "https://github.com/LuisMorenoSerrano/Rust"
-  status: "learning"
-  icon: "🦀"
+    - Fortran
+    - HDF5
+    - OpenMP
+    - High-Performance Computing
+  github_url: "https://github.com/LuisMorenoSerrano/HDF5-Aerospace-Calculations"
+  status: "optimized"
+  icon: "🚀"
   featured: true
 
 - name: "Python Experiments"
@@ -87,19 +117,18 @@
   icon: "🐍"
   featured: true
 
-- name: "HDF5 Aerospace Calculations"
-  slug: "hdf5-aerospace"
+- name: "Rust Learning Projects"
+  slug: "rust"
   description:
-    en: "High-performance Fortran project for aerospace calculations using HDF5 format. Optimized with OpenMP parallelization (8x speedup) and intelligent compression (75% memory reduction)."
-    es: "Proyecto Fortran de alto rendimiento para cálculos aeroespaciales usando formato HDF5. Optimizado con paralelización OpenMP (8x speedup) y compresión inteligente (75% reducción de memoria)."
+    en: "Various projects and experiments learning Rust: guessing game, data format parsers (Avro), temperature converter, Fibonacci, and comprehensive Rust course materials."
+    es: "Varios proyectos y experimentos aprendiendo Rust: juego de adivinanzas, parsers de formatos de datos (Avro), conversor de temperatura, Fibonacci y material de curso completo de Rust."
   technologies:
-    - Fortran
-    - HDF5
-    - OpenMP
-    - High-Performance Computing
-  github_url: "https://github.com/LuisMorenoSerrano/HDF5-Aerospace-Calculations"
-  status: "optimized"
-  icon: "🚀"
+    - Rust
+    - Cargo
+    - Apache Avro
+  github_url: "https://github.com/LuisMorenoSerrano/Rust"
+  status: "learning"
+  icon: "🦀"
   featured: true
 
 - name: "Go Experiments"
@@ -115,61 +144,18 @@
   icon: "🐹"
   featured: true
 
-- name: "Amazon Linux 2023 Setup"
-  slug: "al2023-virtualbox"
+- name: "LN4 Language Server"
+  slug: "ln4-language-server"
   description:
-    en: "Complete tutorial and configuration guide for installing and setting up Amazon Linux 2023 on VirtualBox for development and testing."
-    es: "Tutorial completo y guía de configuración para instalar y configurar Amazon Linux 2023 en VirtualBox para desarrollo y pruebas."
+    en: "Language Server Protocol implementation for Cegid Peoplenet LN4. Built with Rust and Tree-sitter for robust parsing and IDE integration."
+    es: "Implementación del protocolo Language Server para Cegid Peoplenet LN4. Construido con Rust y Tree-sitter para análisis robusto e integración con IDEs."
   technologies:
-    - Linux
-    - VirtualBox
-    - DevOps
-  github_url: "https://github.com/LuisMorenoSerrano/AL2023-VirtualBox"
-  status: "complete"
-  icon: "🐧"
-  featured: false
-
-- name: "Development Configs"
-  slug: "configs"
-  description:
-    en: "Curated collection of configuration files and setups for development tools: Git, VSCode, Vim, ESLint, Biome, Windows Terminal, Oh My Posh, and more."
-    es: "Colección curada de archivos de configuración y setups para herramientas de desarrollo: Git, VSCode, Vim, ESLint, Biome, Windows Terminal, Oh My Posh, y más."
-  technologies:
-    - Configuration
-    - Git
-    - VSCode
-    - Vim
-  github_url: "https://github.com/LuisMorenoSerrano/Configs"
-  status: "maintained"
+    - Rust
+    - Tree-sitter
+    - LSP
+  github_url: "https://github.com/LuisMorenoSerrano/ln4-language-server"
+  status: "in-development"
   icon: "⚙️"
-  featured: false
-
-- name: "Utility Scripts"
-  slug: "scripts"
-  description:
-    en: "Collection of useful automation scripts and utilities for various development tasks and system administration."
-    es: "Colección de scripts de automatización útiles y utilidades para diversas tareas de desarrollo y administración de sistemas."
-  technologies:
-    - Bash
-    - Shell Scripts
-    - Automation
-  github_url: "https://github.com/LuisMorenoSerrano/Scripts"
-  status: "active"
-  icon: "📜"
-  featured: false
-
-- name: "Git Tutorial"
-  slug: "git-tutorial"
-  description:
-    en: "Interactive Git tutorial with practical examples, exercises, and reference materials for learning version control."
-    es: "Tutorial interactivo de Git con ejemplos prácticos, ejercicios y materiales de referencia para aprender control de versiones."
-  technologies:
-    - Git
-    - Version Control
-    - Tutorial
-  github_url: "https://github.com/LuisMorenoSerrano/git-tutorial"
-  status: "complete"
-  icon: "📚"
   featured: false
 
 - name: "Mechanical Keyboards"
@@ -184,4 +170,18 @@
   github_url: "https://github.com/LuisMorenoSerrano/MechanicalKeyboards"
   status: "maintained"
   icon: "⌨️"
+  featured: false
+
+- name: "Git Tutorial"
+  slug: "git-tutorial"
+  description:
+    en: "Interactive Git tutorial with practical examples, exercises, and reference materials for learning version control."
+    es: "Tutorial interactivo de Git con ejemplos prácticos, ejercicios y materiales de referencia para aprender control de versiones."
+  technologies:
+    - Git
+    - Version Control
+    - Tutorial
+  github_url: "https://github.com/LuisMorenoSerrano/git-tutorial"
+  status: "complete"
+  icon: "📚"
   featured: false
