@@ -34,6 +34,8 @@ theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
   - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Yat theme specific settings
 yat:
