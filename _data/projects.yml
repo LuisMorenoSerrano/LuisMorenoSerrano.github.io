@@ -11,6 +11,7 @@
     - VirtualBox
     - DevOps
   github_url: "https://github.com/LuisMorenoSerrano/AL2023-VirtualBox"
+  website_url: "https://luismorenoserrano.github.io/AL2023-VirtualBox/"
   status: "complete"
   icon: "🐧"
   featured: true

@@ -16,20 +16,30 @@
     {% endif %}
 
     <div class="project-links">
-      {% if project.status == "complete" %}
-        <a href="{{ project.github_url }}" class="btn-primary">View Project</a>
-      {% elsif project.status == "in-development" %}
-        <a href="{{ project.github_url }}" class="btn-primary">🔨 In Development</a>
-      {% elsif project.status == "learning" %}
-        <a href="{{ project.github_url }}" class="btn-primary">📚 Learning</a>
-      {% elsif project.status == "active" %}
-        <a href="{{ project.github_url }}" class="btn-primary">⚡ Active</a>
-      {% elsif project.status == "maintained" %}
-        <a href="{{ project.github_url }}" class="btn-primary">🔧 Maintained</a>
-      {% elsif project.status == "optimized" %}
-        <a href="{{ project.github_url }}" class="btn-primary">🚀 Optimized</a>
+      {% if project.website_url %}
+        {% if project.status == "complete" %}
+          <a href="{{ project.website_url }}" class="btn-primary">📖 View Tutorial</a>
+        {% elsif project.status == "in-development" %}
+          <a href="{{ project.website_url }}" class="btn-primary">🔨 View Demo</a>
+        {% else %}
+          <a href="{{ project.website_url }}" class="btn-primary">🌐 View Site</a>
+        {% endif %}
       {% else %}
-        <a href="{{ project.github_url }}" class="btn-primary">View Project</a>
+        {% if project.status == "complete" %}
+          <a href="{{ project.github_url }}" class="btn-primary">View Project</a>
+        {% elsif project.status == "in-development" %}
+          <a href="{{ project.github_url }}" class="btn-primary">🔨 In Development</a>
+        {% elsif project.status == "learning" %}
+          <a href="{{ project.github_url }}" class="btn-primary">📚 Learning</a>
+        {% elsif project.status == "active" %}
+          <a href="{{ project.github_url }}" class="btn-primary">⚡ Active</a>
+        {% elsif project.status == "maintained" %}
+          <a href="{{ project.github_url }}" class="btn-primary">🔧 Maintained</a>
+        {% elsif project.status == "optimized" %}
+          <a href="{{ project.github_url }}" class="btn-primary">🚀 Optimized</a>
+        {% else %}
+          <a href="{{ project.github_url }}" class="btn-primary">View Project</a>
+        {% endif %}
       {% endif %}
       <a href="{{ project.github_url }}" class="btn-secondary">GitHub</a>
     </div>
