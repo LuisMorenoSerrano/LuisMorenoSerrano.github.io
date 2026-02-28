@@ -33,17 +33,17 @@
           </label>
 
           <div class="trigger">
-            {%- for path in page_paths -%}
+            <!-- {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
               {%- endif -%}
-            {%- endfor -%}
+            {%- endfor -%} -->
 
             <span class="page-link">
               <span class="language-switcher">
                 <a href="/" {% if page.lang == "en" or page.lang == nil %}class="active"{% endif %}>EN</a> |
-                <a href="/es/" {% if page.lang == "es" %}class="active"{% endif %}>ES</a>
+                <a href="/es.html" {% if page.lang == "es" %}class="active"{% endif %}>ES</a>
               </span>
             </span>
           </div>

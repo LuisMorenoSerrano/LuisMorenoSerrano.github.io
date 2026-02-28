@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Digital Portfolio
+title: Digital Portfolio (EN)
 ---
 
 <!-- markdownlint-disable MD033 -->

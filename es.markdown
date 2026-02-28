@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Portfolio Digital
+title: Portfolio Digital (ES)
 lang: es
 ---
 
