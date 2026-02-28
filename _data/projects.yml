@@ -1,6 +1,22 @@
 # Projects Portfolio Data
 # Each project includes multilingual descriptions, technologies, status, and GitHub repository links
 
+- name: "AceM-Librarian"
+  slug: "ace-m-librarian"
+  description:
+    en: "Cross-platform librarian and performance analyzer for Yamaha Montage/MODX/MODX+ (X7/X8/Y2) synthesizers. Built with Rust, Tauri, and Vue.js. Features performance file parsing, patch management, and advanced analysis tools."
+    es: "Librería multiplataforma y analizador de performances para sintetizadores Yamaha Montage/MODX/MODX+ (X7/X8/Y2). Desarrollado con Rust, Tauri y Vue.js. Incluye parseo de archivos de performance, gestión de patches y herramientas avanzadas de análisis."
+  technologies:
+    - Rust
+    - Tauri
+    - Vue.js
+    - TypeScript
+    - Yamaha Montage/MODX
+  github_url: "https://github.com/LuisMorenoSerrano/AceM-Librarian"
+  status: "in-development"
+  icon: "🎹"
+  featured: true
+
 - name: "Amazon Linux 2023 Setup"
   slug: "al2023-virtualbox"
   description:
@@ -28,6 +44,20 @@
   github_url: "https://github.com/LuisMorenoSerrano/vscode-cegid-peoplenet-ln4"
   status: "complete"
   icon: "📝"
+  featured: true
+
+- name: "LN4 Language Server"
+  slug: "ln4-language-server"
+  description:
+    en: "Language Server Protocol implementation for Cegid Peoplenet LN4. Built with Rust and Tree-sitter for robust parsing and IDE integration."
+    es: "Implementación del protocolo Language Server para Cegid Peoplenet LN4. Construido con Rust y Tree-sitter para análisis robusto e integración con IDEs."
+  technologies:
+    - Rust
+    - Tree-sitter
+    - LSP
+  github_url: "https://github.com/LuisMorenoSerrano/ln4-language-server"
+  status: "in-development"
+  icon: "⚙️"
   featured: true
 
 - name: "Development Configs"
@@ -59,36 +89,6 @@
   icon: "📜"
   featured: true
 
-- name: "Automata Theory"
-  slug: "automata"
-  description:
-    en: "Comprehensive collection of automata theory materials, formal languages, and computational theory resources. Includes JFLAP tools, assignments, and certification."
-    es: "Colección completa de materiales de teoría de autómatas, lenguajes formales y teoría de la computación. Incluye herramientas JFLAP, tareas y certificación."
-  technologies:
-    - Java
-    - Python
-    - JFLAP
-    - Graphviz
-    - LaTeX
-  github_url: "https://github.com/LuisMorenoSerrano/automata"
-  status: "complete"
-  icon: "🤖"
-  featured: true
-
-- name: "Programming Challenges"
-  slug: "retos-programacion"
-  description:
-    en: "Collection of programming exercises and algorithmic challenges solved in Python. Practice problems from retosdeprogramacion.com with test coverage."
-    es: "Colección de ejercicios de programación y retos algorítmicos resueltos en Python. Problemas de práctica de retosdeprogramacion.com con cobertura de tests."
-  technologies:
-    - Python
-    - pytest
-    - Algorithms
-  github_url: "https://github.com/LuisMorenoSerrano/Retos_Programacion"
-  status: "active"
-  icon: "🧩"
-  featured: true
-
 - name: "HDF5 Aerospace Calculations"
   slug: "hdf5-aerospace"
   description:
@@ -104,18 +104,20 @@
   icon: "🚀"
   featured: true
 
-- name: "Python Experiments"
-  slug: "python"
+- name: "Automata Theory"
+  slug: "automata"
   description:
-    en: "Python projects including data format parsers, matrix multiplication, NASA data processing, Python Essentials course, and various experimental scripts."
-    es: "Proyectos Python incluyendo parsers de formatos de datos, multiplicación de matrices, procesamiento de datos NASA, curso Python Essentials y varios scripts experimentales."
+    en: "Comprehensive collection of automata theory materials, formal languages, and computational theory resources. Includes JFLAP tools, assignments, and certification."
+    es: "Colección completa de materiales de teoría de autómatas, lenguajes formales y teoría de la computación. Incluye herramientas JFLAP, tareas y certificación."
   technologies:
+    - Java
     - Python
-    - NumPy
-    - Data Science
-  github_url: "https://github.com/LuisMorenoSerrano/Python"
-  status: "active"
-  icon: "🐍"
+    - JFLAP
+    - Graphviz
+    - LaTeX
+  github_url: "https://github.com/LuisMorenoSerrano/automata"
+  status: "complete"
+  icon: "🤖"
   featured: true
 
 - name: "Rust Learning Projects"
@@ -145,18 +147,48 @@
   icon: "🐹"
   featured: true
 
-- name: "LN4 Language Server"
-  slug: "ln4-language-server"
+- name: "Python Experiments"
+  slug: "python"
   description:
-    en: "Language Server Protocol implementation for Cegid Peoplenet LN4. Built with Rust and Tree-sitter for robust parsing and IDE integration."
-    es: "Implementación del protocolo Language Server para Cegid Peoplenet LN4. Construido con Rust y Tree-sitter para análisis robusto e integración con IDEs."
+    en: "Python projects including data format parsers, matrix multiplication, NASA data processing, Python Essentials course, and various experimental scripts."
+    es: "Proyectos Python incluyendo parsers de formatos de datos, multiplicación de matrices, procesamiento de datos NASA, curso Python Essentials y varios scripts experimentales."
   technologies:
-    - Rust
-    - Tree-sitter
-    - LSP
-  github_url: "https://github.com/LuisMorenoSerrano/ln4-language-server"
-  status: "in-development"
-  icon: "⚙️"
+    - Python
+    - NumPy
+    - Data Science
+  github_url: "https://github.com/LuisMorenoSerrano/Python"
+  status: "active"
+  icon: "🐍"
+  featured: true
+
+- name: "JS Learning"
+  slug: "js-learning"
+  description:
+    en: "Comprehensive JavaScript learning repository with progressive exercises, code samples, and practical projects. Covers basics, control structures, functions, arrays, objects, DOM, async programming, and modern ES features."
+    es: "Repositorio completo para aprender JavaScript con ejercicios progresivos, ejemplos de código y proyectos prácticos. Cubre fundamentos, estructuras de control, funciones, arrays, objetos, DOM, programación asíncrona y características modernas de ES."
+  technologies:
+    - JavaScript
+    - Node.js
+    - DOM
+    - Async/Await
+    - ES6+
+  github_url: "https://github.com/LuisMorenoSerrano/js-learning"
+  status: "learning"
+  icon: "📘"
+  featured: false
+
+- name: "Programming Challenges"
+  slug: "retos-programacion"
+  description:
+    en: "Collection of programming exercises and algorithmic challenges solved in Python. Practice problems from retosdeprogramacion.com with test coverage."
+    es: "Colección de ejercicios de programación y retos algorítmicos resueltos en Python. Problemas de práctica de retosdeprogramacion.com con cobertura de tests."
+  technologies:
+    - Python
+    - pytest
+    - Algorithms
+  github_url: "https://github.com/LuisMorenoSerrano/Retos_Programacion"
+  status: "active"
+  icon: "🧩"
   featured: false
 
 - name: "Mechanical Keyboards"

@@ -40,17 +40,12 @@
               {%- endif -%}
             {%- endfor -%}
 
-            {%- assign name = 'translate_langs' -%}
-            {%- include functions.html func='get_value' -%}
-            {%- assign translate_langs = return -%}
-            {%- if translate_langs.size > 0 -%}
-              {%- assign name = 'lang' -%}
-              {%- include functions.html func='get_value' default='en' -%}
-              {%- assign lang = return -%}
-              <span class="page-link">
-                  {%- include extensions/google-translate.html -%}
+            <span class="page-link">
+              <span class="language-switcher">
+                <a href="/" {% if page.lang == "en" or page.lang == nil %}class="active"{% endif %}>EN</a> |
+                <a href="/es/" {% if page.lang == "es" %}class="active"{% endif %}>ES</a>
               </span>
-            {%- endif -%}
+            </span>
           </div>
         </nav>
       {%- endif -%}

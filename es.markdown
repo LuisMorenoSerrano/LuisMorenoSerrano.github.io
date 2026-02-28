@@ -27,23 +27,24 @@ lang: es
   <h2>💻 Tecnologías</h2>
   <div class="skills-grid">
     <div class="skill-category">
-      <h3>Lenguajes</h3>
+      <h3>Intereses</h3>
       <div class="skills">
-        <span class="skill">Rust</span>
-        <span class="skill">Python</span>
-        <span class="skill">Go</span>
-        <span class="skill">TypeScript</span>
-        <span class="skill">Fortran</span>
-        <span class="skill">C/C++</span>
-        <span class="skill">Pascal</span>
-        <span class="skill">JavaScript</span>
+        <span class="skill">Computación en la Nube (AWS)</span>
+        <span class="skill">IA & Automatización</span>
+        <span class="skill">Parsers & Compiladores</span>
+        <span class="skill">Servidores de Lenguaje</span>
+        <span class="skill">HPC</span>
+        <span class="skill">Algoritmos</span>
+        <span class="skill">DevOps</span>
       </div>
     </div>
     <div class="skill-category">
       <h3>Herramientas y Frameworks</h3>
       <div class="skills">
-        <span class="skill">Git</span>
+        <span class="skill">Git & GitHub</span>
         <span class="skill">VSCode</span>
+        <span class="skill">Node.js & Vue.js</span>
+        <span class="skill">Docker</span>
         <span class="skill">Tree-sitter</span>
         <span class="skill">HDF5</span>
         <span class="skill">OpenMP</span>
@@ -52,16 +53,29 @@ lang: es
       </div>
     </div>
     <div class="skill-category">
-      <h3>Intereses</h3>
+      <h3>Lenguajes</h3>
       <div class="skills">
-        <span class="skill">Language Servers</span>
-        <span class="skill">Compiladores</span>
-        <span class="skill">HPC</span>
-        <span class="skill">Algoritmia</span>
-        <span class="skill">DevOps</span>
-        <span class="skill">Automatización</span>
+        <span class="skill">Bash & PowerShell</span>
+        <span class="skill">Java</span>
+        <span class="skill">JavaScript & TypeScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">Rust</span>
+        <span class="skill">Go</span>
+        <span class="skill">Fortran</span>
+        <span class="skill">C/C++</span>
+        <span class="skill">Pascal</span>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="contact-section" style="margin-bottom: 2.5em;">
+  <h2>👤 Sobre mí</h2>
+  <div class="contact-links">
+    <a href="/es/about/" class="contact-link">
+      <span class="contact-icon">👋</span>
+      Leer más...
+    </a>
   </div>
 </section>
 
