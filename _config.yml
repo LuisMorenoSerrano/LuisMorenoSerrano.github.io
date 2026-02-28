@@ -41,6 +41,8 @@ plugins:
 yat:
   date_format: "%b %d, %Y"
 
+night_mode: "on" # Enable night mode by default
+
 # Multi-language settings
 languages: ["en", "es"]
 default_lang: "en"
