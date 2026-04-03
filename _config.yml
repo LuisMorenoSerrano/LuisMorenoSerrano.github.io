@@ -37,6 +37,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+sass:
+  silence_deprecations:
+    - import
+
 # Yat theme specific settings
 yat:
   date_format: "%b %d, %Y"

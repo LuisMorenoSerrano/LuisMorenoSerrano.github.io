@@ -32,34 +32,6 @@
   icon: "🐧"
   featured: true
 
-- name: "VSCode LN4 Extension"
-  slug: "vscode-cegid-peoplenet-ln4"
-  description:
-    en: "Visual Studio Code extension providing language support for Cegid Peoplenet LN4 with syntax highlighting and IntelliSense."
-    es: "Extensión de Visual Studio Code que proporciona soporte para Cegid Peoplenet LN4 con resaltado de sintaxis e IntelliSense."
-  technologies:
-    - TypeScript
-    - VSCode API
-    - LSP Client
-  github_url: "https://github.com/LuisMorenoSerrano/vscode-cegid-peoplenet-ln4"
-  status: "complete"
-  icon: "📝"
-  featured: true
-
-- name: "LN4 Language Server"
-  slug: "ln4-language-server"
-  description:
-    en: "Language Server Protocol implementation for Cegid Peoplenet LN4. Built with Rust and Tree-sitter for robust parsing and IDE integration."
-    es: "Implementación del protocolo Language Server para Cegid Peoplenet LN4. Construido con Rust y Tree-sitter para análisis robusto e integración con IDEs."
-  technologies:
-    - Rust
-    - Tree-sitter
-    - LSP
-  github_url: "https://github.com/LuisMorenoSerrano/ln4-language-server"
-  status: "in-development"
-  icon: "⚙️"
-  featured: true
-
 - name: "Development Configs"
   slug: "configs"
   description:
@@ -115,7 +87,7 @@
     - JFLAP
     - Graphviz
     - LaTeX
-  github_url: "https://github.com/LuisMorenoSerrano/automata"
+  github_url: "https://github.com/LuisMorenoSerrano/Automata"
   status: "complete"
   icon: "🤖"
   featured: true
@@ -135,14 +107,14 @@
   featured: true
 
 - name: "Go Experiments"
-  slug: "go-experiments"
+  slug: "go"
   description:
     en: "Go programming projects and experiments including hello world, number finder, and learning exercises for the Go programming language."
     es: "Proyectos y experimentos de programación en Go incluyendo hello world, buscador de números y ejercicios de aprendizaje del lenguaje Go."
   technologies:
     - Go
     - CLI Tools
-  github_url: "https://github.com/LuisMorenoSerrano/go-experiments"
+  github_url: "https://github.com/LuisMorenoSerrano/Go"
   status: "learning"
   icon: "🐹"
   featured: true
@@ -161,10 +133,10 @@
   icon: "🐍"
   featured: true
 
-- name: "JS Learning"
-  slug: "js-learning"
+- name: "JS/TS Learning"
+  slug: "js-ts"
   description:
-    en: "Comprehensive JavaScript learning repository with progressive exercises, code samples, and practical projects. Covers basics, control structures, functions, arrays, objects, DOM, async programming, and modern ES features."
+    en: "Comprehensive JavaScript/TypeScript learning repository with progressive exercises, code samples, and practical projects. Covers basics, control structures, functions, arrays, objects, DOM, async programming, and modern ES features."
     es: "Repositorio completo para aprender JavaScript con ejercicios progresivos, ejemplos de código y proyectos prácticos. Cubre fundamentos, estructuras de control, funciones, arrays, objetos, DOM, programación asíncrona y características modernas de ES."
   technologies:
     - JavaScript
@@ -172,7 +144,7 @@
     - DOM
     - Async/Await
     - ES6+
-  github_url: "https://github.com/LuisMorenoSerrano/js-learning"
+  github_url: "https://github.com/LuisMorenoSerrano/JS-TS"
   status: "learning"
   icon: "📘"
   featured: false

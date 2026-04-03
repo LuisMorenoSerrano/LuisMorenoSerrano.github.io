@@ -1,6 +1,8 @@
 /**
  * Common list
  */
+@use "sass:color";
+
 .common-list {
   @include relative-font-size(1.0);
   min-width: 200px;
@@ -27,7 +29,7 @@
       transition: background 0.2s;
 
       &:hover {
-        background-color: mix($theme-color, #eaeaea, 20%);
+        background-color: color.mix($theme-color, #eaeaea, 20%);
       }
     }
 

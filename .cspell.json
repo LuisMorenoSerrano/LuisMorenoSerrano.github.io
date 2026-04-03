@@ -7,7 +7,9 @@
     "Avro",
     "Biome",
     "cegid",
+    "centralizadamente",
     "GitHub",
+    "jekyll",
     "Jekyll",
     "Kyria",
     "Liquid",
@@ -21,7 +23,7 @@
     "sitter",
     "Tauri",
     "Tree",
-    "YAML",
+    "YAML"
   ],
   "ignorePaths": [
     "_site/**",
@@ -32,6 +34,12 @@
     "_includes/**",
     "_layouts/**"
   ],
-  "dictionaries": ["typescript", "softwareTerms", "html", "css", "filetypes"],
+  "dictionaries": [
+    "typescript",
+    "softwareTerms",
+    "html",
+    "css",
+    "filetypes"
+  ],
   "useGitignore": true
 }
